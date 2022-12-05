@@ -19,6 +19,9 @@ const FormData = require("form-data");
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
+  setInterval(() => {
+    console.log("test",new Date());
+  }, 500);
   res.render('index', { title: 'Express' });
 });
 
