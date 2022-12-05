@@ -1,2 +1,2 @@
 # autotest4
-autotest4
+test only demo code
